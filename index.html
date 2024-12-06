@@ -89,10 +89,8 @@
              life.
            </pre>
 
-      <pre id="Introduction">
        <h3 id="Introduction"><u><b>Introduction</b></u></h3>
-         <p class="ex1">
-           <pre>
+         <<pre id="Introduction_InText" class="ex1">
              AHVs have saved countless lives from the moment it was invented in 1952 to current day [4]
              <a  href=”https://www.annalsthoracicsurgery.org/article/S0003-4975(03)01815-0/fulltext”>(Gott, Alejo and Cameron, 2003)</a>.AHVs are small contraptions that function as a heart valve,
              people get AHVs if they have a faulty heart valve. AHVs rely heavily on fluid dynamics to function
@@ -131,10 +129,8 @@
 
        <img src ="figure1.jpg" alt="Banner" Width="612" height="779"<p>figure 1</p>>
        
-      <pre id="Topic_2">
        <h3 id="Sub-topic-2"><u><b>Types of AHVs and their fluid dynamics</b></u></h3>
-         <p class="ex1">
-           <pre>
+         <pre id="Topic2" class="ex1">
              <b>ball-and-cage valve</b> seen in figure (1)
              This AHV was the first AHV to be successfully implanted into a patient, it was developed by Dr Charles
              Hufnagel in the year1952 [4]<a  href=”https://www.annalsthoracicsurgery.org/article/S0003-4975(03)01815-0/fulltext”>(Gott, Alejo and Cameron, 2003).</a>. This AHV had a very simple design and worked by
@@ -155,10 +151,8 @@
              flow should be very laminar however, this does come with other disadvantages like leakage.
            </pre>
        
-        <pre id="Topic_3">
         <h3 id="Sub-topic-3"> <u><b>Challenges in fluid dynamics</b></u></h3>
-         <p class="ex1">
-           <pre>
+         <pre id="Topic3" class="ex1">
              challenges engineers need to worry about when designing an AHV is shear stress and leakage. Shear stress is
              a force that cause deformation of material [8]<a  href=”https://www.britannica.com/science/shear-stress”>(Britannica, 2019).</a> AHVs experience shear stress due to the
              high-pressure flow. We can’t prevent shear stress but there are ways of minimising it, the two most common
@@ -174,10 +168,10 @@
              no gaps between it and the wall of the heart and the only way to fix a leakage is by surgery.
            </pre>
        
-        <pre id="Conclusion_InText">
+
         <h3 id="Conclusion"><u><b>Conclusion</b></u></h3>
-        <p class ="ex1">
-           <pre>
+        <pre id="Conclusion_InText" class ="ex1">
+
              In conclusion although AHVs still have problems that occur from time to time they fulfil their function and
              work without any major problems occurring. Engineers have worked more than 70 years on developing a AHV that
              would last for a long time and function without any problems and each year they come closer to reaching this goal.
@@ -280,9 +274,9 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction");
-    const P1Count = displayWordCount("Topic_1");
-    const P2Count = displayWordCount("Topic_2");
-    const P3Count = displayWordCount("Topic_3");
+    const P1Count = displayWordCount("Introduction_INText");
+    const P2Count = displayWordCount("Topic2");
+    const P3Count = displayWordCount("Topic3");
     const ConclusionCount = displayWordCount("Conclusion_InText");
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count + ConclusionCount;
@@ -292,6 +286,7 @@
   // Run the function for specific sections and display total count when the page loads
   window.onload = displayTotalWordCount;
 </script>
+       
        
        
        

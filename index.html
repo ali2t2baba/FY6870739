@@ -169,10 +169,12 @@
              [10]<a  href=”https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice/Volume-9/Paravalvular-leak-important-complication-after-implantation-of-prosthetic-valv”>(Smolka’ and Wojakowski’, n.d.).</a>. The only prevention of AHVs leaking is by fitting in the AHV so that there are
              no gaps between it and the wall of the heart and the only way to fix a leakage is by surgery.
            </pre>
-
+       
+        <pre id="Conclusion_InText">
         <h3 id="Conclusion"><u><b>Conclusion</b></u></h3>
         <p class ="ex1">
-           <pre>
+
+          
              In conclusion although AHVs still have problems that occur from time to time they fulfil their function and
              work without any major problems occurring. Engineers have worked more than 70 years on developing a AHV that
              would last for a long time and function without any problems and each year they come closer to reaching this goal.
@@ -278,9 +280,9 @@
     const P1Count = displayWordCount("Sub-topic-1");
     const P2Count = displayWordCount("Sub-topic-2");
     const P3Count = displayWordCount("Sub-topic-3");
-    const Conclusion = displayWordCount("Conclusion");
+    const ConclusionCount = displayWordCount("Conclusion_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count + Conclusion;
+    const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count + ConclusionCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
